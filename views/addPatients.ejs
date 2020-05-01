@@ -1,0 +1,28 @@
+<%- include("partials/header"); -%>
+<div class="row">
+  <div class="col-sm-5">
+
+  <form class="form-group" action="/dashboard/addPatients/<%=usrid %>" method="post">
+    <label for="patientName">Patient's Name: </label>
+    <input  class="form-control" type="text" name="patientName" size="100" value="">
+    <label for="PhoneNum">Contact Number(mandatory):</label>
+    <input  class="form-control" type="text" name="phoneNum" size="100" value="">
+    <label for="email">Email(mandatory):</label>
+    <input  class="form-control" type="email" name="email" size="100" value="">
+    <label for="email">Appointment's reason :</label>
+    <textarea class="form-control" name="reason" rows="4"> </textarea>
+     </div>
+     <div class="col-sm-7">
+    <label for="Message">Prescription Given</label>
+    <textarea class="form-control" name="prescription" rows="12 "></textarea><br>
+    <div  class="text-right">
+      <button type="submit" name="button" class="btn btn-primary" > Add Patient</button>
+      </div>
+  </form>
+  <%# </div> %>
+
+  </div>
+
+
+
+<%- include("partials/footer"); -%>

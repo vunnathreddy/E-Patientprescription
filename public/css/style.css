@@ -1,0 +1,114 @@
+
+/* body color*/
+body{
+  color:#0f4c81;
+  font-style: italic;
+  font-size: 1.4em;
+  }
+
+#navBar{
+  padding:30px 0px 100px;
+}
+
+.navBar-d{
+  padding:30px 0px 70px;
+}
+
+.navbar-brand{
+	font-family: 'Balthazar', sans-serif;
+  font-weight: 800;
+}
+
+#navBar #logo{
+  color:#000839;
+  font-size: 55px;
+}
+
+.navBar-d .logo{
+  color:#000839;
+  font-size: 55px;
+}
+
+
+
+#setascope{
+  height:300px;
+  width:700px;
+  position: absolute;
+  top:30%;
+  left: 27%;
+  opacity: 0.1;
+  /* transform: rotate(-15deg) */
+}
+
+#lsbuttons{
+  position: relative;
+  top:70px;
+}
+
+.login{
+  width:280px;
+}
+.signup{
+  width:280px;
+}
+.modal-header{
+  color:#142850;
+  font-style: italic;
+}
+
+@media (max-width:768px) {
+  .btn{
+    width:100%;
+    margin:.5px;
+    outline: none;
+  }
+  .login{
+    background-color: #0069D9 !important;
+  }
+  .signup{
+    background-color: #343A40 !important;
+  }
+  .bodytext{
+    position: relative;
+    top:10px;
+
+  }
+  #setascope{
+    height: 300px;
+    z-index=-1;
+    position: absolute;
+    top:10%;
+    right:10%;
+    opacity: 0.4;
+    transform: rotate(-10deg)
+  }
+
+  .navbar{
+    padding:20px 0px;
+  }
+}
+
+
+#error-reason{
+  position: relative;
+  top:100px;
+  height: 80px;
+  color: red;
+  text-align: center;
+}
+
+
+
+#searchval{
+  color:#120136;
+}
+
+#patientcol{
+  border-right: 2px solid;
+}
+
+#patient_details{
+font-weight: bold;
+font-size:30px;
+}
